@@ -1,0 +1,47 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 1rem;
+  .MainTitle {
+    text-align: center;
+  }
+  .Label {
+    text-align: center;
+  }
+  .Inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+#submit {
+  background: rgb(62, 120, 185);
+  color: white;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: none;
+  transition: 250ms all;
+  &:hover {
+    background: rgb(35, 119, 214);
+  }
+}
+
+#linkToImage {
+  font-weight: 700;
+  &:hover {
+    cursor: pointer;
+  }
+}
